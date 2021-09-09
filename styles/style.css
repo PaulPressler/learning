@@ -5,3 +5,58 @@ h1 {
 p {
     font-family: fantasy;
 }
+header{
+    background: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+#header-background{
+    width: auto;
+    height: 100px;
+    background:url('https://t3.ftcdn.net/jpg/02/99/21/78/360_F_299217809_TnjZoIPJbHvWTqLBjDQYIJ8NfV3CKsjd.jpg')
+}
+nav{
+    background-color: rgb(177, 177, 177);
+    border: 1px solid #a8a8a8;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    color: #888;
+    display: block;
+    margin: 8px 22px 8px 22px;
+    overflow: hidden;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+li {
+    display: inline;
+    float: left;
+}
+li a {
+    display: block;
+    padding: 14px 16px;
+    color: ivory;
+    text-align: center;
+    text-decoration: none;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
