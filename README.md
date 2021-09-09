@@ -1,4 +1,4 @@
-# learning
+# Learning Project
 This project is just for testing and messing around.
 
 Some possible goals for this project:
@@ -23,3 +23,4 @@ JavaScript Resources:
 Other Resources:
 1. Bootstrap - Getting Started: https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
+Made by: Paul Pressler
